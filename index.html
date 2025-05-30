@@ -1,35 +1,197 @@
 <!DOCTYPE html>
 <html>
-
-    <head>
+  
+  <head>
     
-        <meta charset="UTF-8">
-        <title>Pagina de terraria</title>
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="UTF-8">
+    <title>Pagina de terraria</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
-        <style>
+    <style>
+      
+      *{
+        padding:0px;
+        margin:0px;
+      }
 
+      h1{
+        background-color:gold;
+        text-align:center;
+        color:black;
+        padding:15px;
+      }
 
+      nav{
+        border:3px solid gold;
+      }
+      
+      nav ul{
+        background-color:black;
+        color:gold;
+        width:100%;
+        text-align:center;
+        list-style-type:none;
+      }
+      
+      nav li{
+        display:inline-flex;
+      }
+      
+      nav a{
+        text-decoration:none;
+        color:gold;
+        padding:8px;
+        width:120px;
+        font-size:18px;
+      }
+      
+      nav li:hover{
+        background-color:yellow;
+        border:4px double black;
+      }
 
-        </style>
+      nav a:hover{
+        color:black;
+      }
+      
+      img{
+        border:4px double gold;
+        height:400px;
+        object-fit:cover;
+        margin-left:30px;
+      }
+      
+      body{
+        background-color:grey;
+        background-size:cover;
+      }
 
-    </head>    
+      .Contenido{
+        background-color:gold;
+        border-radius:1%;
+        border:8px ridge orange;
+        display:flex;
+        margin:60px;
+      }
+      
+      .Articulo{
+        align-content:center;
+        background-color:none;
+        width:100%;
+        margin:10px;
+      }
 
-    <body>
+      .Texto{
+        color:black;
+        background-color:gold;
+        padding:4px;
+        margin-right:25px;
+      }
+      
+      .Secciones{ 
+        line-height:1.6;
+        overflow-y:auto;
+        display:flex;
+        align-items:center;
+        padding:40px;
+        padding-top:75px;
+      }
+      
+      footer{
+        margin-bottom:0px;
+        border:4px solid gold;
+        text-align:center;
+        background-color:black;
+        color:gold;
+        width:100%;
+        height:100px;
+      }
+      
+      footer p{
+        text-align:center;
+        padding-top:40px;
+        font-size:20px;
+      }
+      
+    </style>
+    
+  </head>
+  
+  <body background="https://img.freepik.com/vector-premium/patron-costuras-dibujado-mano-cajas-rojas-dibujadas-mano-llenas-patatas-fritas-crujientes-amarillas-no-saludables_735707-215.jpg?semt=ais_hybrid&w=740">
+    
+    <header>
+      
+      <h1>PapaMania</h1>
+      
+      <nav>
+        
+        <ul>
+          
+          <li><a href="">Principal</a></li>
+          <li><a href="">Politicas</a></li>
+          <li><a href="">Productos</a></li>
+          <li><a href="">Acerca de</a></li>
+          
+        </ul>
+        
+      </nav>
+      
+    </header>
+    
+    <main>
+      
+      <section>
+      
+        <div class="Contenido">
+          
+          <div class="Articulo">
+            
+            <div class="Secciones">
+              
+              <div class="Texto">
 
-        <header>
-
-            <h1>PapaMania</h1>
-            <h2>Prueba Hola</h2>
-
-        </header>
-
-        <footer>
-
-
-
-        </footer>
-
-    </body>
-
+                <h2>Resumen</h2>
+                <p>Terraria es un videojuego de accion, aventura y de sandbox, desarrollado como indie por el estudio de Re-Logic.</p>
+                <br>
+                <p>
+                Este posee elementos rpg, construccion y combate, ademas de contar con una gran cantidad de contenido, el cual puede ser expandido por medio de mods provenientes del Tmodloader</p>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+          
+        </div>
+       
+      </section> 
+       
+    </main>
+    
+    <footer>
+      
+      <p>¡PapaMania, una explosion de sabor que te hace volar!</p>
+      
+    </footer>
+    
+  </body>
+  
 </html>

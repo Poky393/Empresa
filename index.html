@@ -4,26 +4,9 @@
   <head>
     
     <meta charset="UTF-8">
-    <title>Pagina de terraria</title>
+    <title>PapaMania</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
-    
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="Pestaña.ico">
 
     <style>
       
@@ -33,14 +16,12 @@
       }
 
       h1{
+        border-top:5px ridge orange;
+        border-bottom:5px ridge orange;
         background-color:gold;
         text-align:center;
         color:black;
         padding:15px;
-      }
-
-      nav{
-        border:3px solid gold;
       }
       
       nav ul{
@@ -58,14 +39,13 @@
       nav a{
         text-decoration:none;
         color:gold;
-        padding:8px;
+        padding:4px;
         width:120px;
         font-size:18px;
       }
       
       nav li:hover{
         background-color:yellow;
-        border:4px double black;
       }
 
       nav a:hover{
@@ -80,19 +60,22 @@
       }
       
       body{
+        object-fit:cover;
         background-color:grey;
         background-size:cover;
       }
 
       .Contenido{
-        background-color:gold;
+        height:400px;
+        background-color:orange;
         border-radius:1%;
-        border:8px ridge orange;
+        border:8px ridge gold;
         display:flex;
         margin:60px;
       }
       
       .Articulo{
+        height:200px;
         align-content:center;
         background-color:none;
         width:100%;
@@ -100,34 +83,45 @@
       }
 
       .Texto{
+        height:200px;
         color:black;
-        background-color:gold;
+        background-color:orange;
         padding:4px;
-        margin-right:25px;
       }
       
       .Secciones{ 
-        line-height:1.6;
+        height:350px;
+        line-height:1;
         overflow-y:auto;
-        display:flex;
         align-items:center;
-        padding:40px;
-        padding-top:75px;
+        padding:20px;
       }
-      
+
+      .Empresa{
+        color:gold;
+        font-size:30px;
+        padding-bottom:6px;
+      }
+
+      .Texto p{
+        color:black;
+        font-size:20px;
+        padding-top:6px;
+        padding-bottom:6px;
+      }
+
       footer{
-        margin-bottom:0px;
-        border:4px solid gold;
+        border:4px solid orange;
         text-align:center;
         background-color:black;
         color:gold;
         width:100%;
-        height:100px;
+        height:120px;
       }
       
       footer p{
         text-align:center;
-        padding-top:40px;
+        padding-top:60px;
         font-size:20px;
       }
       
@@ -145,10 +139,10 @@
         
         <ul>
           
-          <li><a href="">Principal</a></li>
-          <li><a href="">Politicas</a></li>
-          <li><a href="">Productos</a></li>
-          <li><a href="">Acerca de</a></li>
+          <li><a href="index.html">Principal</a></li>
+          <li><a href="Politicas.html">Politicas</a></li>
+          <li><a href="Productos.html">Productos</a></li>
+          <li><a href="AcercaDe.html">Acerca de</a></li>
           
         </ul>
         
@@ -168,12 +162,25 @@
               
               <div class="Texto">
 
-                <h2>Resumen</h2>
-                <p>Terraria es un videojuego de accion, aventura y de sandbox, desarrollado como indie por el estudio de Re-Logic.</p>
-                <br>
-                <p>
-                Este posee elementos rpg, construccion y combate, ademas de contar con una gran cantidad de contenido, el cual puede ser expandido por medio de mods provenientes del Tmodloader</p>
+                <h2 class="Empresa">¿Que somos?</h2>
                 
+                <p>Somos una empresa donde ofrecemos un servicio de comidad, dicho servicio se enfoca en las comidas rapidas y snacks.
+                </p>
+
+                <h2 class="Empresa">¿Que tipo de empresa somos?</h2>
+
+                <p>Somos una empresa industrial de consumo final, en tamaño nos clasificamos como una microempresa, tambien somos una empresa privada y nos manejamos de manera local geograficamente.</p>
+
+                <h2 class="Empresa">¿Cual es nuestro objetivo y que necesidad cubrimos?</h2>
+
+                <p>El objetivo de la empresa es proveer a las personas de un snack o botana para acompañarlos, esto ya puede ser pasando un rato con amigos o incluso solos.
+                <br>
+                La necesidad no sera muy importante, pero esperamos ser una opcion a la hora de elegir una botana o snack.</p>
+
+                <h2 class="Empresa">¿Cual es nuestra mision y vision?</h2>
+
+                <p>La mision de la empresa es dar a conocer la creatividad al realizar y transformar alimentos. Por otro lado nuestra vision es ser una opcion para las personas que quieran disfrutar de algun alimento que los haga disfrutar mas la vida.</p>
+
               </div>
               
             </div>
